@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+body {
+    margin: 0;
+    font-weight: normal;
+    font-size: 16px;
+    color: #303030;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+label {
+    cursor: pointer;
+}
+
+section {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+select,
+input,
+textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    background-color: transparent;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    max-width: 1270px;
+    width: 100%;
+    margin:0 auto;
+    padding: 0 15px;
+}
+
+.d-flex{
+    display: flex;
+}
+.align-items-center{
+    align-items: center;
+}
+.justify-content-center{
+    justify-content:center;
+}
+.flex-column{
+    flex-direction: column;
+}
+.h-100 {
+    height:100%;
+}
+.flex-shrink-0 {
+    flex-shrink:0;
+}
+.title{
+    font-size: 40px;
+    line-height:  59px;
+    text-transform: uppercase;
+    color: #303030;
+    position: relative;
+}
+.title:after{
+    content:"";
+    left:0cm;
+    top:100%;
+    left:0;
+    position: absolute;
+    width:50px;
+    height: 2px;
+}
+header {
+    width: 100%;
+    height: 148px;
+    background-color:#FFFFFF;
+}
+header .header-logo {
+    margin-right:70px
+}
+.header-nav .header-nav_item {
+    margin-right:30px;
+}
+.header-nav .header-nav_item:last-of-type {
+    margin-right:0;
+}
+.header-nav .header-nav_item a{
+    font-weight: 500;
+    line-height: 24px;
+   
+}
+.header-nav .header-nav_item a:hover{
+    color: #CFA166;
+   
+}
+.header-contacts{
+    margin-left:65px;
+    margin-right:45px;
+}
+.header-contacts .header-lang{
+    margin-right:35px;
+}
+.brown-link-btn{
+    background-color:#CFA166 ;
+    color:#FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    padding:19px 40px;
+}
+.brown-link-btn:hover{
+    background-color: #b29264;
+}
+.main-slider{
+    margin-bottom:175px
+}
+.about-us .about-us-img{
+    margin-left: 20px;
+}
+.about-us .about-us-text{
+    margin-left: 20px;    
+}
+.about-us .about-us-text p{
+    font-weight: normal;
+    font-size:16px;
+    line-height: 31px;
+}
+.advantages{
+    padding-top: 245px;
+    background-image: url('../img/advantages.jpg');
+}
+.advantages .advantages-wrap{
+    background: rgba(19, 19, 19, 0.81);
+    padding: 41px 60px;
+}
+.advantages .advantages-wrap .advantages-item{
+    margin-right: 84px;
+}
+.advantages .advantages-wrap .advantages-item:last-of-type{
+    margin-right: 0px;
+}
+.advantages .advantages-wrap .advantages-item img{
+    margin-bottom: 15px;
+}
+.advantages .advantages-wrap .advantages-item span{
+    text-align: center;
+    font-size: 18px;
+    line-height: 31px;
+    color:#FFFFFF;
+}
+/*Д/З Сделать блок контакты и футер */
+footer{
+    background-color: #282828;
+}
+footer a  {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 147.4%;   
+    
+    color: #FFFFFF;
+}
+footer button {
+    width: 273px;
+    height: 64px;
+}
